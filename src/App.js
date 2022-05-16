@@ -14,7 +14,7 @@ const FILTER_NAMES = Object.keys(FILTER_MAP);
 
 function App(props) {
   const [tasks, setTasks] = useState(props.tasks);
-  const [filter, setFilter] = useState('Active');
+  const [filter, setFilter] = useState('All');
 
   function addTask(name) {
     const newTask = { id: "todo-" + nanoid(), name: name, completed: false };

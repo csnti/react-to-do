@@ -59,7 +59,7 @@ body {
   margin: 0 auto;
   font: 1.6rem/1.25 Arial, sans-serif;
   background-color: #0E1116;
-  color: #FFFFFF;
+  color: lightgrey;
 }
 @media screen and (min-width: 620px) {
   body {
@@ -88,16 +88,16 @@ body {
   border-color: #4d4d4d;
 }
 .btn__danger {
-  color: #fff;
-  background-color: #902b2b;
-  border-color: #8b6ec1;
+  color: lightgrey;
+  background-color: #f4212f92;
+  border-color: #00000000;
 }
 .btn__filter {
   border-color: lightgrey;
 }
 .btn__primary {
-  color: #fff;
-  background-color: #9ADB80;
+  color: lightgrey;
+  background-color: #539764;
 }
 .btn-group {
   display: flex;
